@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/simple.css">
+</head>
+<body>
+    <div class="container">
+        <div class="form-heading">
+            <h1>Simple Registration Form</h1>
+        </div>
+        <div class="form-data">
+            <form action="">
+                <table>
+                    <tr>
+                        <td><label for="name">Name</label></td>
+                        <tr>
+                            <td><input type="text" id="first" name="first"><br>First Name</td>
+                            <td><input type="text" id="last" name="last" ><br>Last Name</td>
+                        </tr>
+                    </tr>
+
+                    <tr>
+                        <td><label for="email">Email</label></td>
+                        <td><label for="number">Phone Number</label></td>
+                        <tr>
+                            <td><input type="email" id="email" name="email"><br>example@example.com</td>
+                            <td><input type="number" id="number" name="number" ><br>Please enter valid phone number</td>
+                        </tr>
+                    </tr>
+
+                    <tr>
+                        <td ><label for="date">Date Of Birth</label></td>
+                        <tr><td ><input type="date" id="date" name="date"><br>Date</td></tr>
+                    </tr>
+
+                     <tr>
+                        <td><label for="gender">Gender</label></td>
+                        <tr>
+                            <td><input type="radio" id="gender" name="gender">Male</td>
+                        </tr>
+                        <tr>
+                            <td><input type="radio" id="gender" name="gender" >Female</td>
+                        </tr>
+                    </tr>
+
+                     <tr>
+                        <td><label for="add">Address</label></td>
+                        <tr>
+                            <td colspan="2"><textarea name="add" id="add"></textarea><br>Street Address</td>
+                        </tr>
+                        <tr>
+                            <td colspan="2"><textarea name="add" id="add"></textarea><br>Street Address Line 2</td>
+                        </tr>
+                        <tr>
+                            <td><input type="text" id="city" name="city"><br>City</td>
+                            <td><input type="number" id="number" name="number" ><br>State/Province</td>
+                        </tr>
+                    </tr>
+
+                     <tr>
+                        <td><label for="about">How Did You Hear About Us?</label></td>
+                        <tr>
+                            <td colspan="2"><textarea name="about" id="about" rows="5"></textarea></td>
+                        </tr>
+                    </tr>
+
+                    <tr>
+                        <td colspan="2"><label for="update">Would you like to updates and promotions via emails?</label></td>
+                        <tr>
+                            <td><input type="radio" id="update" name="update">Yes</td>
+                        </tr>
+                        <tr>
+                            <td><input type="radio" id="update" name="update" >No</td>
+                        </tr>
+                    </tr>
+
+                    <tr>
+                        <td><input type="checkbox" name="agree" id="agree"> I agree to Terms and Conditions</td>
+                    </tr>
+
+                    <tr>
+                        <td><label for="signature">Signature</label></td>
+                        <td><label for="sign-date">Sign Date</label></td>
+                        <tr>
+                            <td >
+                                <textarea name="signature" id="signature" rows="6"></textarea><br>
+                                <button  type="reset">clear</button>
+                            </td>
+                            <td><input type="date" id="sign-date" name="sign-date" ><br>Date</td>
+                        </tr>
+                    </tr>
+
+                    <tr>
+                        <td colspan="2" class="center-submit"><button class="submit">Submit</button></td>
+                    </tr>
+                </table>
+            </form>
+        </div>
+    </div>
+</body>
+</html>

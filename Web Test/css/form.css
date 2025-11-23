@@ -1,0 +1,61 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+} 
+.container
+{
+    width: 80%;
+    margin: auto;
+    /* border: 1px solid black; */
+}
+.form-heading
+{
+    padding: 30px;
+    margin: 10px;
+    text-align: center;
+    /* text-decoration: underline; */
+    /* border: 1px solid black; */
+    background-color: yellowgreen;
+    min-height: 100px;
+}
+table,tr,td{
+     /* border: 1px solid black; */
+     min-height: 100px;
+}
+table
+{
+    border:1px solid lightgrey;
+}
+
+table,tr,td{
+   border-collapse: collapse;
+}
+tr,td
+{
+    height: 20px;
+    padding: 10px;
+    margin: 10px;
+}
+table{
+    width: 98%;
+    margin: auto;
+    padding: 30px;
+    margin: 10px;
+}
+
+input[type="text"],
+input[type="number"],
+input[type="date"]
+{
+    width: 80%;
+    padding: 10px;
+}
+
+.contact{
+    text-align: center;
+    width: 100%;
+    padding: 10px;
+    margin: 10px;
+    background-color: lightgrey;
+}
